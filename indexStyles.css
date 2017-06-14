@@ -1,0 +1,172 @@
+body{
+  background-color: #394f6f;
+  overflow-y: scroll;
+}
+
+main {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  line-height: 120%;
+}
+
+p.home {
+  font-size: 12px;
+}
+
+div#navBar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 1000px;
+  height: 80px;
+  background-color: #344865;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+div#navBar2 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #344865;
+}
+
+img#logo {
+  position: fixed;
+  height: 53px;
+  margin-top: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+div#a {
+  position: fixed;
+  width: 300px;
+  height: 1196px;
+  margin-top: 10px;
+  color: #FFF;
+  background-color: #394f6f;
+  z-index: -1;
+}
+
+div#b {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  margin-top: 120px;
+  margin-left: 300px;
+  z-index: -2;
+}
+
+div#c {
+  position: absolute;
+  width: 800px;
+  height: auto;
+  margin-top: 120px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: -1;
+}
+
+div#d {
+  position: absolute;
+  width: 800px;
+  height: auto;
+  margin-top: 120px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: -1;
+}
+
+p#spacer {
+  margin-bottom: 80px;
+}
+
+h1#top {
+  padding-top: 110px;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 17pt;
+  line-height: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 15pt;
+  line-height: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+  color: #FFF;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  color: #e6e6e6;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+li {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  color: #e6e6e6;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+a#reg {
+  color: #e6e6e6;
+}
+
+a.moreInfo{
+  text-decoration: underline;
+  color: #e6e6e6;
+}
+
+img#bImg {
+  position: absolute;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+a.navLink {
+  position: absolute;
+  margin-top: 30px;
+  font-weight: 300;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  color: #FFF;
+  font-size: 13pt;
+}
+
+a.navLink:hover{
+  text-decoration: underline;
+}
+
+a#ho {
+  margin-left: 220px;
+}
+
+a#sc {
+  margin-left: 310px;
+}
+
+a#ws {
+  margin-left: 560px;
+}
+
+a#sh {
+  margin-left: 690px;
+}
