@@ -39,7 +39,7 @@ img#logo {
 }
 
 div#a {
-  position: absolute;
+  position: relative;
   width: 800px;
   height: auto;
   margin-top: 0px;
@@ -48,26 +48,34 @@ div#a {
   z-index: -1;
   left: 50%;
   transform: translate(-50%, 0);
+  margin-bottom: 60px;
 }
 
 div#b {
-  position: absolute;
+  position: relative;
   width: 800px;
   height: 100px;
-  margin-top: 580px;
+  margin-top: auto;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: -2;
 }
 
+img#bImg {
+  position: relative;
+  width: 800px;
+  margin-bottom: 50px;
+  margin-top: auto;
+}
+
 h1#top {
-  padding-top: 110px;
+  padding-top: 130px;
 }
 
 h1 {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
-  font-size: 19pt;
+  font-size: 12px;
   line-height: 10px;
   padding-left: 20px;
   padding-right: 40px;
@@ -86,22 +94,16 @@ h2 {
 p {
   font-family: Montserrat, sans-serif;
   font-weight: 300;
-  font-size: 15pt;
+  font-size: 10px;
   color: #e6e6e6;
   padding-left: 20px;
   padding-right: 40px;
-  line-height: 125%;
+  line-height: 130%;
 }
 
 a.moreInfo{
   text-decoration: underline;
   color: #e6e6e6;
-}
-
-img#bImg {
-  position: absolute;
-  width: 800px;
-  margin-bottom: 50px;
 }
 
 a.navLink {
