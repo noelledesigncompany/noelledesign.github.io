@@ -1,0 +1,54 @@
+body {
+  background: url('resources/mobileWall.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav{
+  position: relative;
+  margin-left: 0;
+  width: 100%;
+  height: 40%;
+}
+
+div#container {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+a.navLink {
+  position: relative;
+  color: #d0d0d0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-decoration: none;
+  line-height: 150%;
+}
+
+a#current {
+  font-weight: 500;
+  color: #FFF;
+}
+
+a.navLink:hover {
+  color: #FFFFFF;
+}
+
+img#logo {
+  position: relative;
+  height: 75px;
+  margin: auto;
+  margin-bottom: 50px;
+  /*left: 50%;
+  transform: translateX(-50%);*/
+}
+
+img#b {
+  display: none;
+}
