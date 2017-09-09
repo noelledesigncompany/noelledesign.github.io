@@ -1,0 +1,132 @@
+body {
+  background-color: #FFFFFF;
+  color: #916f6f;
+  display: block;
+}
+
+body#colored {
+  background-color: #9b7d7d;
+  color: #FFF;
+  display: block;
+}
+
+nav {
+  background-color: #916f6f;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-width: 1050px;
+  height: 80px;
+}
+
+main {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div#a {
+  background-color: #916f6f;
+  position: absolute;
+  top: 0;
+  width: 1000px;
+  height: 80px;
+  display: block;
+}
+
+a.navLink {
+  position: relative;
+  color: #bca9a9;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 18pt;
+  text-decoration: none;
+  line-height: 150%;
+  font-size: 18px;
+  float: right;
+  margin-top: 26px;
+  padding-left: 18px;
+}
+
+a#current {
+  font-weight: 500;
+  color: #FFF;
+}
+
+a.navLink:hover {
+  color: #FFF;
+}
+
+img#logo {
+  height: 18px;
+  margin-top: 31px;
+  z-index: 1;
+}
+
+div#top {
+  width: 1000px;
+  height: 80px;
+  margin-top: 140px;
+  font-family: Montserrat, sans-serif;
+}
+
+div#be {
+  text-align: right;
+  font-size: 16pt;
+  margin-top: -50pt;
+}
+
+a#behance {
+  text-decoration: none;
+  color: inherit;
+}
+
+a#behance:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 20pt;
+  font-weight: 500;
+  line-height: 0%;
+}
+
+div#spot {
+  width: 100%;
+  height: auto;
+  /*background-color: #FFF;*/
+}
+
+div.tile {
+  width: 495px;
+  height: 330px;
+  float: left;
+  transition: background-image .3s ease-in-out;
+}
+
+div#tile1 {
+  background-image: url('resources/portfolioTile1.png');
+}
+div#tile1:hover {
+  background-image: url('resources/portfolioTile1h.png');
+}
+
+div#tile2 {
+  background-image: url('resources/portfolioTile2.png');
+  margin-left: 10px;
+}
+div#tile2:hover {
+  background-image: url('resources/portfolioTile2h.png');
+}
+
+img.portPic {
+  width: 700px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  border: 7px;
+  border-style: solid;
+  border-color: #FFF;
+}
