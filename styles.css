@@ -103,6 +103,7 @@ div#spot {
 }
 
 div.tile {
+  position: absolute;
   width: 475px;
   height: 315px;
   float: left;
@@ -111,17 +112,29 @@ div.tile {
 
 div#tile1 {
   background-image: url('resources/portfolioTile1.png');
+  width: 960px;
 }
 div#tile1:hover {
   background-image: url('resources/portfolioTile1h.png');
+  width: 960px;
 }
 
 div#tile2 {
   background-image: url('resources/portfolioTile2.png');
-  margin-left: 10px;
+  margin-top: 325px;
 }
 div#tile2:hover {
   background-image: url('resources/portfolioTile2h.png');
+}
+
+div#tile3 {
+  background-image: url('resources/portfolioTile3.png');
+  margin-left: 485px;
+  margin-top: 325px;
+  margin-bottom: 50px;
+}
+div#tile3:hover {
+  background-image: url('resources/portfolioTile3h.png');
 }
 
 img.portPic {
@@ -131,4 +144,9 @@ img.portPic {
   border: 7px;
   border-style: solid;
   border-color: #FFF;
+}
+
+p#about {
+  margin-top: 28pt;
+  font-size: 14pt;
 }
