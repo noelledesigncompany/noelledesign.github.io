@@ -1,14 +1,14 @@
 body {
   background-color: #FFFFFF;
   color: #916f6f;
-  display: block;
+  display: flex;
   overflow-y: scroll;
 }
 
 body#colored {
   background-color: #9b7d7d;
   color: #FFF;
-  display: block;
+  display: flex;
   overflow-y: scroll;
 }
 
