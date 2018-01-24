@@ -2,42 +2,51 @@ body {
   background-color: #FFFFFF;
   color: #916f6f;
   display: flex;
-  overflow-y: scroll;
+  width: 960px;
+  margin: 0 auto;
+
 }
 
 body#colored {
   background-color: #9b7d7d;
   color: #FFF;
   display: flex;
-  overflow-y: scroll;
+  overflow-x: visible;
+  width: 960px;
+  margin: 0 auto;
 }
 
 nav {
   background-color: #916f6f;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  min-width: 1010px;
   height: 80px;
-  margin: 0 auto;
+  z-index: 1;
+}
+
+@media screen and (max-width: 960px) {
+  nav {
+    position: absolute;
+    width: inherit;
+  }
 }
 
 main {
-  width: 960px;
-  height: auto;
+  position: relative;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-top: 110px;
+  width: 900px;
+  height: auto;
 }
 
 div#a {
-  background-color: #916f6f;
-  position: absolute;
-  top: 0;
-  width: 960px;
+  position: relative;
+  margin: 0 auto;
+  width: 900px;
   height: 80px;
-  display: block;
+  z-index: 2;
 }
 
 a.navLink {
@@ -70,9 +79,9 @@ img#logo {
 }
 
 div#top {
-  width: 960px;
+  width: 900px;
   height: 80px;
-  margin-top: 140px;
+  position: relative;
   font-family: Montserrat, sans-serif;
 }
 
@@ -91,12 +100,6 @@ a#behance:hover {
   text-decoration: underline;
 }
 
-h1 {
-  font-size: 20pt;
-  font-weight: 500;
-  line-height: 0%;
-}
-
 div#spot {
   width: 100%;
   height: auto;
@@ -104,25 +107,25 @@ div#spot {
 }
 
 div.tile {
-  position: absolute;
-  width: 475px;
-  height: 315px;
+  position: relative;
+  width: 445px;
+  height: 295px;
   float: left;
   transition: background-image .3s ease-in-out;
 }
 
 div#tile1 {
   background-image: url('resources/portfolioTile1.png');
-  width: 960px;
+  width: 900px;
 }
 div#tile1:hover {
   background-image: url('resources/portfolioTile1h.png');
-  width: 960px;
+  width: 900px;
 }
 
 div#tile2 {
   background-image: url('resources/portfolioTile2.png');
-  margin-top: 325px;
+  margin-top: 10px;
 }
 div#tile2:hover {
   background-image: url('resources/portfolioTile2h.png');
@@ -130,8 +133,9 @@ div#tile2:hover {
 
 div#tile3 {
   background-image: url('resources/portfolioTile3.png');
-  margin-left: 485px;
-  margin-top: 325px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 div#tile3:hover {
@@ -140,14 +144,24 @@ div#tile3:hover {
 
 img.portPic {
   width: 700px;
-  margin-left: 150px;
+  margin-left: 95.5px;
   margin-bottom: 50px;
   border: 7px;
   border-style: solid;
   border-color: #FFF;
 }
 
-p#about {
-  margin-top: 28pt;
+p {
+  margin: auto;
+  font-size: 16pt;
+}
+
+h1 {
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+h2 {
   font-size: 14pt;
+  font-weight: normal;
 }
