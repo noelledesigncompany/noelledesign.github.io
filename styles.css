@@ -90,6 +90,7 @@ div#be {
   text-align: right;
   font-size: 16pt;
   margin-top: -50pt;
+  display: none; /* HIDDEN WHILE NO PORTFOLIO */
 }
 
 a#behance {
