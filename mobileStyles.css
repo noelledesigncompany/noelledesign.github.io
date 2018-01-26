@@ -1,12 +1,12 @@
 body {
-  background: url('resources/mobileWall.png') no-repeat center center fixed;
+  background: #27352A url('resources/mobileWall.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-nav{
+nav {
   position: relative;
   margin-left: 0;
   width: 100%;
