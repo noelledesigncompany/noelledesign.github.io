@@ -110,24 +110,21 @@ div#spot {
 
 div.tile {
   position: relative;
-  width: 445px;
-  height: 295px;
-  float: left;
+  width: 900px;
+  height: 300px;
+  margin-top: 10px;
   transition: background-image .3s ease-in-out;
 }
 
 div#tile1 {
   background-image: url('resources/portfolioTile1.png');
-  width: 900px;
 }
 div#tile1:hover {
   background-image: url('resources/portfolioTile1h.png');
-  width: 900px;
 }
 
 div#tile2 {
   background-image: url('resources/portfolioTile2.png');
-  margin-top: 10px;
 }
 div#tile2:hover {
   background-image: url('resources/portfolioTile2h.png');
@@ -135,13 +132,17 @@ div#tile2:hover {
 
 div#tile3 {
   background-image: url('resources/portfolioTile3.png');
-  float: left;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 50px;
 }
 div#tile3:hover {
   background-image: url('resources/portfolioTile3h.png');
+}
+
+div#tile4 {
+  background-image: url('resources/portfolioTile4.png');
+  margin-bottom: 50px;
+}
+div#tile4:hover {
+  background-image: url('resources/portfolioTile4h.png');
 }
 
 img.portPic {
